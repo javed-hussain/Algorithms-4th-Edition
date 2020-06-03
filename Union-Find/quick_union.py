@@ -21,19 +21,19 @@ class QuickUnion:
         print(self.ids)
 
 
-qf = QuickUnion(10)
+qu = QuickUnion(10)
 random.randint(0,10)
 for i in range(10):
     p = random.randint(0,9)
     q = random.randint(0,9)
     # print(f'\np = {p:<10}q = {q}')
-    qf.union(p,q)
+    qu.union(p,q)
     # qf.print_status()
 
-qf.print_status()
+qu.print_status()
 for i in range(5):
     p = random.randint(0,9)
     q = random.randint(0,9)
     print(f'\np = {p:<10}q = {q}')
-    print(qf.connected(p,q))
+    print(qu.connected(p,q))
     
