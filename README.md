@@ -29,4 +29,4 @@ Answer
 2. Connect the neighbor elements if not connected already. 
 3. In addition to that we can use above approach for find() which will always keep track of the highest element in component connected
 
-[x] Percolation Excercise - 100/100
+- [x] Percolation Excercise - 100/100
